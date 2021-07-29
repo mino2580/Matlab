@@ -1,0 +1,12 @@
+clear all;
+clc;
+a= 'Pre Prevod z desitkove do hexa 1\nPre Prevod Na stupne stlac     2\n';  
+c = input(a);
+
+if (a==1);
+ 
+d=dec2hex(c);
+ sprintf('Hexa cislo je a=%5.5s ',d)
+
+end
+ 
